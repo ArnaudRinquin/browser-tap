@@ -1,6 +1,6 @@
 {
   "name": "browser-tap",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "TAP reporter as a browser devtool extension",
   "main": "browser-tap.js",
   "dependencies": {
