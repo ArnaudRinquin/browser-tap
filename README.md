@@ -20,6 +20,10 @@ _Later, `browser-tap` will probably become a standalone **natively browser compl
 
 ## Usage
 
+```
+npm i -S browser-tap
+```
+
 To use it, simply import `browser-tap` instead of `tape` (or use something like [`webpack resolve.alias`](https://webpack.github.io/docs/configuration.html#resolve-alias) to have that done automatically).
 
 ## Example
