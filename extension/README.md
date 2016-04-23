@@ -1,5 +1,7 @@
 # browser-tap extension
 
+[Install from Chrome Web Store](https://chrome.google.com/webstore/detail/browser-tap/ncfblaiipckncgeipgmpdioedcdmofei)
+
 ## Concept
 
 The way `browser-tap` is inspired by [`zalmoxisus/redux-devtools-extension`](https://github.com/zalmoxisus/redux-devtools-extension).

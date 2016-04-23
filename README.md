@@ -1,8 +1,16 @@
 # browser-tap
 
-A wrapper around `tape` that lets you run tests in the browser and see the results in a Chrome Devtools Tab if available.
+A wrapper around `tape` that lets you run tests in the browser and see the results in a Chrome Devtools Tab if the extension is installed ([install from Chrome Web Store](https://chrome.google.com/webstore/detail/browser-tap/ncfblaiipckncgeipgmpdioedcdmofei)).
 
 Best used with [`babel-plugin-discard-module-references`](https://github.com/ArnaudRinquin/babel-plugin-discard-module-references)
+
+Links:
+
+* [talk](http://bit.ly/browser-tap-talk) at #londonreact April 2016 Meetup
+* [slides](http://bit.ly/browser-tap)
+* [medium post](http://bit.ly/browser-tap-post)
+* [example](http://bit.ly/browser-tap-example)
+* [Chrome Extension](http://bit.ly/browser-tap-extension)
 
 ## Concepts
 
@@ -33,3 +41,5 @@ In the [example folder](./example), you'll find a project covering all the major
 ## Extension
 
 `browser-tap` value relies greatly in the provided extension. It's not published yet but it's easy to build and install manually. See [its README](./extension/README.md) for guidance.
+
+[Install from Chrome Web Store](https://chrome.google.com/webstore/detail/browser-tap/ncfblaiipckncgeipgmpdioedcdmofei)
