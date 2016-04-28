@@ -14,8 +14,7 @@ window.addEventListener('message', function(event) {
     return;
   }
 
-  // forward message to background.js
-  chrome.runtime.sendMessage(message.action);
+  if (message.action) chrome.runtime.sendMessage(message.action);
 });
 
 var s = document.createElement('script');
